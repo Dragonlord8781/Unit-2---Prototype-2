@@ -452,6 +452,9 @@ GameObject:
   - component: {fileID: 4907119102911474634}
   - component: {fileID: 5570238952035289538}
   - component: {fileID: 2453804912942707485}
+  - component: {fileID: 5498886927073960843}
+  - component: {fileID: 6150941574181878646}
+  - component: {fileID: 4624676895963745243}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -469,8 +472,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.046396255, y: 0, z: 11.249308}
-  m_LocalScale: {x: 10, y: 10, z: 10}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 579229349794945884}
   - {fileID: 3887212319611394591}
@@ -520,7 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ba8b984732ae548b08002c373956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 15
 --- !u!114 &2453804912942707485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,6 +534,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5498886927073960843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4930936604585927943}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.082845934, y: 0.20767055, z: 0.32708985}
+  m_Center: {x: 0.003286332, y: 0.103344135, z: 0.007283807}
+--- !u!114 &6150941574181878646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4930936604585927943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4624676895963745243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4930936604585927943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39377100b2c80748a2371915652a7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5039117036438805738

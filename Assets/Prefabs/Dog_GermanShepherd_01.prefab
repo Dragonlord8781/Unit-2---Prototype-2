@@ -831,6 +831,9 @@ GameObject:
   - component: {fileID: 5622269369815932286}
   - component: {fileID: 1175069813736077659}
   - component: {fileID: -4969882792539879593}
+  - component: {fileID: 6049929519243520063}
+  - component: {fileID: 353672698231928251}
+  - component: {fileID: 7759408061530697962}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -848,8 +851,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -1.9452448, y: 0, z: 14.7295065}
-  m_LocalScale: {x: 10, y: 10, z: 10}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2313540037786579473}
   - {fileID: 3725723735377108311}
@@ -924,7 +927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ba8b984732ae548b08002c373956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 15
 --- !u!114 &-4969882792539879593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,6 +938,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6049929519243520063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292222376480190285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &353672698231928251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292222376480190285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13903867, y: 0.23273595, z: 0.2899859}
+  m_Center: {x: -0.011283589, y: 0.09727368, z: 0.035676885}
+--- !u!114 &7759408061530697962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292222376480190285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39377100b2c80748a2371915652a7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1471119274461733287

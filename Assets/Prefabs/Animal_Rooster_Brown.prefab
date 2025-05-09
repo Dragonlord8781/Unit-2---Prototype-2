@@ -1191,6 +1191,9 @@ GameObject:
   - component: {fileID: 9205011472741057976}
   - component: {fileID: 7875891265955549730}
   - component: {fileID: -40511422523630585}
+  - component: {fileID: 5615270155909823187}
+  - component: {fileID: 3320253925462931271}
+  - component: {fileID: 610161117895755612}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
   m_TagString: Untagged
@@ -1208,8 +1211,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 1.8434238, y: -0.0000009536743, z: 8.825958}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5077402400588047547}
   - {fileID: 1334532840105192212}
@@ -1255,7 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ba8b984732ae548b08002c373956a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 15
 --- !u!114 &-40511422523630585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1266,6 +1269,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5615270155909823187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483347003576380417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a027e5e1675bba048995c981b39ecb50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3320253925462931271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483347003576380417}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.84291, y: 17.923225, z: 22.158611}
+  m_Center: {x: -0.33397704, y: 8.461611, z: -1.4274085}
+--- !u!114 &610161117895755612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8483347003576380417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39377100b2c80748a2371915652a7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8487752251433778784
